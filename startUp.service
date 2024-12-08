@@ -1,0 +1,12 @@
+[Unit]
+Description=Send IP Address to Google Sheets
+After=network.target
+Wants=network.target
+
+[Service]
+ExecStart=/path/to/startUp.sh
+User=YOUR-USER-HERE
+
+
+[Install]
+WantedBy=multi-user.target
