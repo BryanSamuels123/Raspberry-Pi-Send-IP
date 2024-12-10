@@ -3,7 +3,7 @@
 
 
 ## Creating the Google Sheets Script
-1. Navigate to [Google Sheets](sheets.google.com)
+1. Navigate to [Google Sheets](https://sheets.google.com)
     - If prompted to login/create an account, follow those directions, then move to step 2. 
 2. Click “Blank Spreadsheet”
 
@@ -112,7 +112,7 @@ sudo apt-get install libuhd-dev uhd-host
    ```
     - This command adds an ethernet connection interface of the name “USRP-X310” with an IPv4 address of 192.168.10.1/24 (X310 default address with /24 subnet mask).
 
-Verify the connection
+Verify the connection:
 - ```
   uhd_find_devices
   ```
